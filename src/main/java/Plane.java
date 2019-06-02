@@ -6,10 +6,6 @@ public class Plane {
         this.plane = plane;
     }
 
-    public PlaneType getPlane() {
-        return plane;
-    }
-
     public int getCapacityFromEnum() {
         return this.plane.getCapacity();
     }
